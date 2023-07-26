@@ -1,0 +1,14 @@
+{
+  "name": "mng-labs/sample-lib",
+  "description": "This is just a sample library to be included by Composer.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "MngLabs\\SampleLibrary": "src/"
+    }
+  }
+}
